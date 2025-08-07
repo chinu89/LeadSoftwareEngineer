@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LeadSoftwareEngineer/static/css/main.04c2e869.css",
+    "main.js": "/LeadSoftwareEngineer/static/js/main.2548c0a6.js",
+    "index.html": "/LeadSoftwareEngineer/index.html",
+    "main.04c2e869.css.map": "/LeadSoftwareEngineer/static/css/main.04c2e869.css.map",
+    "main.2548c0a6.js.map": "/LeadSoftwareEngineer/static/js/main.2548c0a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04c2e869.css",
+    "static/js/main.2548c0a6.js"
+  ]
+}
