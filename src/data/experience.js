@@ -1,62 +1,60 @@
 export const experiences = [
   {
     id: 1,
-    company: 'JP Morgan India',
-    role: 'Software Engineer Lead (VP)',
-    duration: 'Dec 2016 - Present',
+    company: 'JP Morgan Chase & Co.',
+    role: 'Vice President, Software Engineering',
+    duration: 'December 2016 - Present',
+    location: 'Mumbai, India',
     type: 'Full-time',
     highlights: [
-      'Spearheaded modernization of legacy applications into Kubernetes-based microservices, cutting infrastructure costs and accelerating deployment velocity by 40%',
-      'Architected Camunda-driven regulatory workflows aligned with CCPA and GDPR, automating incident escalation and reducing manual compliance overhead',
-      'Revamped data ingestion and reporting pipelines using AWS (Lambda, S3, SNS), streamlining privacy incident handling for 10+ lines of business',
-      'Achieved 30% system efficiency gains through strategic code refactoring and cross-functional collaboration'
+      'Architected Kubernetes-based microservices platforms, modernizing legacy compliance systems and improving deployment velocity by 40% while reducing infrastructure costs by 30%',
+      'Led cost optimization initiatives for enterprise privacy platform, identifying inefficiencies and orchestrating migration of applications from legacy private cloud to Kubernetes-based private cloud infrastructure, achieving 20% cost reduction while maintaining compliance and security standards',
+      'Implemented Kafka streaming architecture processing daily privacy events with 99.9% uptime, enabling near-real-time GDPR/CCPA compliance workflows across various lines of business',
+      'Implemented AWS EventBridge and SQS-based asynchronous event processing with resilient messaging patterns, reducing failure propagation by 60%',
+      'Architected Camunda-driven regulatory workflow engines automating incident escalation, data subject rights requests, and audit trail generation',
+      'Provided technical mentorship and guidance across 35+ engineers spanning multiple product teams, conducting design and code reviews, and fostering technical excellence'
     ],
-    projects: [
-      'Engineered a scalable AWS-powered application to ingest third-party privacy incidents and enforce compliance rules',
-      'Led end-to-end development of multi-region compliance workflow platforms',
-      'Developed enterprise-grade case management system for incident lifecycle tracking'
+    keyInitiatives: [
+      'Enterprise Privacy Compliance Platform: Event-driven system built on Kafka, AWS EventBridge, and Kubernetes automating GDPR/CCPA breach notifications, data subject rights processing, and regulatory reporting',
+      'Cloud Modernization Initiative: Multi-year transformation migrating monolithic financial applications to containerized microservices architecture with Infrastructure as Code and DevOps practices',
+      'Real-Time Compliance Workflow Engine: Camunda-orchestrated platform supporting regulatory processes with comprehensive audit trails and SLA monitoring'
     ]
   },
   {
     id: 2,
-    company: 'CapGemini India',
+    company: 'Capgemini India',
     role: 'Senior Consultant',
-    duration: 'Jul 2014 - Dec 2016',
+    duration: 'July 2014 - December 2016',
+    location: 'India',
     client: 'Schneider Electric',
     type: 'Consulting',
     highlights: [
-      'Directed digital transformation of 6+ Java/Oracle-based systems, enhancing contract simulation speed',
-      'Mentored junior developers and managed end-to-end change requests',
-      'Authored project metrics (PMTS) and facilitated strategic client discussions',
-      'Streamlined customer offer workflows through system optimization'
+      'Led architectural modernization of 6+ Java/Oracle enterprise systems, improving performance by 35% and establishing scalable integration patterns',
+      'Provided technical mentorship and architecture reviews, driving engineering quality across distributed teams'
     ]
   },
   {
     id: 3,
-    company: 'NSE-IT',
+    company: 'NSE IT Limited',
     role: 'Associate System Analyst',
-    duration: 'Feb 2014 - Jul 2014',
-    client: 'NSE',
+    duration: 'February 2014 - July 2014',
+    location: 'India',
+    client: 'National Stock Exchange of India',
     type: 'Contract',
     highlights: [
-      'Delivered backend enhancements for UCI-WDM systems via Java, JSP, and Shell scripts',
-      'Resolved critical production issues and conducted impact assessments',
-      'Executed market pre-checks to ensure business continuity',
-      'Boosted operational stability through systematic improvements'
+      'Delivered backend enhancements for high-availability trading platforms using Java, JSP, and shell scripting in regulated financial environments'
     ]
   },
   {
     id: 4,
     company: 'Tech Mahindra',
     role: 'Technical Associate',
-    duration: 'Jun 2011 - Feb 2014',
+    duration: 'June 2011 - February 2014',
+    location: 'India',
     client: 'British Telecom',
     type: 'Full-time',
     highlights: [
-      'Designed and deployed reusable modules using Java, Oracle, and Unix for SOE Classic',
-      'Led defect triaging and impact analysis, delivering rapid production fixes',
-      'Ensured robust backend performance and system enhancements',
-      'Maintained high code quality standards and documentation'
+      'Designed reusable backend components using Java, Oracle PL/SQL, and Unix for large-scale telecom billing and provisioning systems'
     ]
   }
 ];
