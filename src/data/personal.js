@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: 'Chinmay Gawde',
-  title: 'Vice President - Software Engineering Lead',
+  title: 'Vice President-Software Engineering Lead',
   position: 'Vice President @ JP Morgan India',
   tagline: 'Cloud-Native Architecture • Event-Driven Systems • Privacy Compliance • Technical Leadership',
   location: 'Mumbai, India',
